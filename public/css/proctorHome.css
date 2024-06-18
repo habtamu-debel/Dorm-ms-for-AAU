@@ -1,0 +1,307 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(17, 92, 167);
+  height: 60px;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+  margin-bottom:40px;
+}
+
+.re {
+  color: white;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.add1 {
+  padding-bottom: 20px;
+  padding-top: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding-right: 50px;
+  letter-spacing: 1px;
+}
+
+.addis {
+  letter-spacing: 3px;
+  margin-top: -8px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.navbar-list li {
+  margin-left: 20px;
+  padding-bottom: 40px;
+}
+
+.navbar-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  
+ 
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+
+  .logo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+   
+}
+
+.logo1 img {
+    width: 320px;
+    height: 100px;
+    padding-left: 90px;
+}
+
+.well h1 {
+    color: rgb(17, 92, 167);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.well h2 {
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+}
+
+.re {
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1px;
+  margin-bottom: 5px;
+}
+
+#myHeading {
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    color: rgb(0, 72, 181);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding-top: -6px;
+}
+
+#myHeading:hover {
+    transform: scale(1.1);
+}
+    /* CSS for Proctor's info and button list */
+    .proctor-info-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; /* Align items vertically centered */
+      margin-top: 30px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      height:700px;
+    }
+
+   
+
+    .proctor-info img {
+      width: 150px;
+      border-radius: 100%;
+    }
+
+    .button-list {
+      display: flex;
+      flex-direction: column;
+     
+      padding:30px;
+      box-shadow: 0 2px 4px rgba(116, 81, 230, 0.7);
+      margin-top:10px;
+      background-color: #f9f9f9;
+     
+    }
+
+    .button-list button {
+      height: 40px;
+      width: 200px;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: rgba(0, 72, 181, 0.74);
+      color: white;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      border-radius: 10px;
+    }
+
+    .button-list button:hover {
+      background-color: #111;
+    }
+
+    /* CSS for footer */
+    footer {
+      height:20px;
+      clear: both; /* Clear the floats */
+      background-color: rgba(0, 72, 181, 0.74);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Additional CSS for an attractive and interactive design */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #myHeading {
+        font-family: "Arial", sans-serif;
+  font-size: 30px;
+  color: rgb(17, 92, 167);
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+      text-align: center;
+      padding-top: -6px;
+    }
+    #myHeading:hover{
+        transform: scale(1.1);
+    }
+
+    p {
+      color: #5d44e9;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .jumbotron {
+      background-color: #f9f9f9;
+      padding: 40px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(116, 81, 230, 0.2);
+      height:100px
+    }
+    .motion-effect {
+            transition: transform 0.3s ease;
+        }
+
+        .motion-effect:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes colorChange {
+  0% { color: rgb(114, 122, 24); }
+  50% { color: rgb(74, 37, 240); }
+  100% { color: rgb(230, 156, 45); }
+
+}
+
+#motivationText {
+  animation: colorChange 3s infinite;
+  font-weight: bold;
+  font-size: 20px;
+  /* padding: 10px; */
+}
+.proctor-info {
+            height: 50;
+            text-align: center;
+            flex: 1;
+            /* Take up remaining space */
+            margin-left: -60px;
+            margin-bottom: 100px;
+            margin-top: 100px;
+            padding-top: 50px ;
+        }
+        .form-group {
+            margin-bottom: 20px;
+
+        }
+
+        label {
+            display: inline-flex;
+            margin-bottom: 5px;
+
+
+
+        }
+
+        .proctor-form {
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(73, 98, 209, 0.5);
+            margin-left: 105px;
+            /* border: 2px solid black; */
+            padding: 20px;
+            border-radius: 4px;
+            width: 400px;
+
+
+        }
+
+        input {
+            border: none;
+            outline: none;
+            width:250px;
+        }
+      .email 
+      {
+        padding-left: 5px;
+      }
+      label
+      {
+        width: 100px;
+  text-align: right;
+  margin-right: 10px;
+      }
+        .proctor-info img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        .custom-input::placeholder {
+  color: rgb(0, 72, 181);
+  font-weight: bold;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+
+
+        .pro
+        {
+         display:inline-block;
+         margin-bottom:1px;
+        }
+
+        .button-list a {
+          margin-bottom: 10px; /* Add margin-bottom to create vertical spacing between buttons */
+          /* Or you can use padding instead of margin */
+          /* padding: 5px 10px; */
+        }
+
